@@ -1,0 +1,18 @@
+.loader {
+  height: 300px;
+  width: 300px;
+  background-color: transparent;
+  border: 50px solid yellow;
+  border-top: 50px solid red;
+  border-radius: 50%;
+  animation: loader 3s ease 0s infinite normal;
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

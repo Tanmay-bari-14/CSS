@@ -1,0 +1,36 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: #333;
+  color: white;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+/* TASK 2 */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  height: 250px;
+  width: 250px;
+  background-color: blue;
+}

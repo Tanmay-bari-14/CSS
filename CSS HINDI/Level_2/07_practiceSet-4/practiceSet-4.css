@@ -1,0 +1,40 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: #0f1111;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 200px;
+  font-size: 25px;
+}
+
+#yellow-color {
+  color: rgb(216, 179, 32);
+}
+
+#btn {
+  background-color: #f08804;
+  color: white;
+}
+
+.practice-div1 {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(255, 0, 0, 0.5);
+  border: solid black 2px;
+}
+.practice-div2 {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(0, 255, 0, 0.5);
+  border: solid black 2px;
+}
+.practice-div3 {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(0, 0, 255, 0.5);
+  border: solid black 2px;
+}

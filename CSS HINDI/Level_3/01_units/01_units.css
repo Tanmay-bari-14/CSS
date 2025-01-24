@@ -1,0 +1,28 @@
+/* HEIGHT */
+
+.box1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  font: 10px;
+}
+
+/* EM */
+
+.box2 {
+  height: 50px;
+  width: 70%; /* Basically "%" is used to set the dimension to an element but It's depends on child's parent dimensions propertys*/
+  background-color: green;
+  font-size: 2em; /* it is used in font size porperty and it's working is depends on a parents font size 1 em = 1 * of parent fonts size */
+  width: 5em; /* is also works as * times of the element but depends on itself propeties above 2em is = prents font size = 20px * 5 is a width of the perticular element */
+}
+
+/* REM */
+
+/* It works as a em but depends on root elements fonts size */
+
+/* ----------------------------------------------------------------------------- */
+
+/* VH */
+
+/* view port height / browser height ==> 1vh = 1% of vh*/

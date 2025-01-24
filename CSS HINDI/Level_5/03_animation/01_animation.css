@@ -1,0 +1,58 @@
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+div {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  background-color: violet;
+  animation-name: blockmover, colorChanger;
+  /* animation-name: colorChanger; */
+  animation-duration: 3s;
+  /* animation-timing-function: ease-in; */
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+  /* animation shorthand is also availbe => animation : (name) (timing_fn) (delay) .... so on*/
+}
+
+@keyframes blockmover {
+  from {
+    background-color: violet;
+  }
+  to {
+    background-color: red;
+  }
+}
+
+@keyframes colorChanger {
+  from {
+    left: 0px;
+  }
+  to {
+    right: 500px;
+  }
+}
+
+/* animation property is only use when the perticular div or a elements positions is not static means your element should be in RELATIVE, ABSOLUTE this type of position and you can use multiple keyframe at a time */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ANIMATION IN % */
+
+@keyframes percentMethod {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: green;
+  }
+  100% {
+    background-color: blue;
+  }
+}

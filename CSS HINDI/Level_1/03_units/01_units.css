@@ -1,0 +1,18 @@
+/* FONT SIZE */
+#para1 {
+  font-size: 100px;
+}
+
+#para2 {
+  font-size: 10px;
+}
+
+#para3 {
+  font-size: 1px;
+}
+
+/* LINE HEIGHT */
+#random_para {
+  line-height: 20px; /* this property set spacing between the rows */
+}
+

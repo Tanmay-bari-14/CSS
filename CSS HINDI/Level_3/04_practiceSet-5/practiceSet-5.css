@@ -1,0 +1,8 @@
+.photo {
+  height: 500px;
+  width: 500px;
+  background-image: url("image.jpg");
+  background-size: cover;
+  position: fixed;
+  right: 0px;
+}

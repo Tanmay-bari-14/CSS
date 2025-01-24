@@ -1,0 +1,47 @@
+div {
+  background-color: blueviolet;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+/* STATIC */
+
+.box1 {
+  position: static; /* STATIC => statica means the default position of the element and if you apply static to the perticular element all other property like TOP, BOTTOM, LEFT, RIGHT, Z-INDEX are not applicable*/
+}
+
+/* RELATIVE */
+
+.box2 {
+  position: relative; /* RELATIVE => positions will be changes in the basis of its relative position , basically it relative to itself, also all other property like TOP, BOTTOM, LEFT, RIGHT, Z-INDEX are applicable*/
+  top: 20px;
+  right: 25px;
+}
+
+/* ABSOLUTE */
+.box3 {
+  position: absolute; /* ABSOLUTE =>  positions will be changes on the basis of nearest ancestor which is non-static*/
+  top: 2px;
+  left: 35px;
+}
+
+/* FIXED */
+.box4 {
+  position: fixed; /* FIXED =>  This propert always depends on the browser change its position on the basis of browser and also the position of the element is fixed*/
+  background-color: rebeccapurple;
+  bottom: 10px;
+}
+
+/* STICKY */
+.box5 {
+  position: sticky; /* STICKY =>  it works as a porperty given to the element to stick when, means if you give TOP=30px when the element reaches at the define location while scroling it sticks to that location*/
+  background-color: rebeccapurple;
+}
+
+/* Z-INDEX */
+
+.box2 {
+  z-index: 1; /* Z-INDEX this is used for the overlapping the elemnts above/below other positive/larger value takes element above and negative/smaller value takes element below ==> and applicable on non-static elements */
+}

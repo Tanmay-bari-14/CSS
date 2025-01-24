@@ -1,0 +1,59 @@
+/* demo */
+
+.testing {
+  display: block;
+}
+
+.testing {
+  background-color: rebeccapurple;
+}
+
+/* BLOCK */
+.box1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 2px solid black;
+  margin-top: 10px;
+  display: block;
+}
+
+/* INLINE */
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border: 2px solid black;
+  margin-top: 10px;
+  display: inline; /*display INLINE property drawback is applied inline property cannot be eligible for margin from top and bottom also the height and width of the perticular div is only the content is lie between it*/
+}
+
+/* INLINE-BLOCK */
+.box3 {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  border: 2px solid black;
+  margin-top: 10px;
+  display: inline-block; /* its opposite of the INLINE property in this margin and padding will be applicable*/
+}
+
+/* VISIBILITY : HIDDEN */
+.box5 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  border: 2px solid black;
+  margin-top: 10px;
+  visibility: hidden; /* in this elemnt will be removed from the document flow but keep her place into the webpage in simple means it's hidden*/
+}
+
+/* NONE */
+.box4 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border: 2px solid black;
+  margin-top: 10px;
+  display: none; /* in this elemnt will be removed from the document flow and cannot take any space on the webpage*/
+}

@@ -1,0 +1,10 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: lightcoral;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  transform: scale(2, 1);
+  transform: scale(1, 2);
+}

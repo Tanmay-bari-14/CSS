@@ -1,0 +1,17 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+
+div:hover {
+  background-color: green;
+}
+
+div {
+  transition-property: all; /* to perform transion on all selected elements */
+  transition-duration: 2s; /* how much time take to do the transition */
+  transition-delay: 1s; /* after how much time will take to do the action */
+  transition-timing-function: ease; /* how transition is done / transition style */
+  transition: all 2s steps(6) 1s;
+}
